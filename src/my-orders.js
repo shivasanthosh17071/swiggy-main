@@ -4,7 +4,7 @@ import Loader from "./loader";
 function MyOrders() {
   const orders = [
     {
-      restaurantName: "Swiggy Biryani House",
+      restaurantName: "Food express Biryani House",
       restaurantImage: "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5.jpg",
       orderId: "SWG123456",
       date: "2025-06-01",

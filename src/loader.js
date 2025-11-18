@@ -13,7 +13,7 @@ function Loader() {
         </div>{" "}
         <img
           style={{ marginTop: "-60px", marginLeft: "-70px", width: "60px" }}
-          src="https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Logo.png"
+          src="/foodexpress.png"
           alt="swiggy"
         />
         <h2> Looking great food near you ...</h2>

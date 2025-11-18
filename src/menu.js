@@ -26,12 +26,13 @@ function Menu() {
 
   useEffect(() => {
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/menu`, {
+      .get(`https://swiggy-backend-sand.vercel.app/menu`, {
         params: { restId: params.restId },
       })
       .then((res) => {
-        const menuData = res?.data?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.slice(1);
-        const allMenuItems = menuData.flatMap(item => item.card?.card?.itemCards || []);
+        console.log(res)
+        const menuData = res?.data?.data?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.slice(1);
+        const allMenuItems = menuData.flatMap(item => item?.card?.card?.itemCards || []);
         setMenu(allMenuItems);
         setFilteredMenu(allMenuItems);
       });

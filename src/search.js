@@ -17,7 +17,7 @@ function Search() {
     SetRestuarants(null);
     // axios.get(`https://www.swiggy.com/dapi/restaurants/search/v3?lat=17.4320096&lng=78.5426602&str=${searchRestuarants}&trackingId=d9f7c559-9fa7-c036-aeda-f47e8701d692&submitAction=ENTER&queryUniqueId=d5205c14-7d27-441d-e1cf-178d60ecbbe6`)
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/searchRestuarants`, {
+      .get(`https://swiggy-backend-sand.vercel.app/searchRestuarants`, {
         params: {
           lat: geo[0].lat,
           lng: geo[0].lng,

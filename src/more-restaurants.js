@@ -15,7 +15,7 @@ function FoodRestaurant() {
 
   useEffect(() => {
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/moreRestaurants`, {
+      .get(`https://swiggy-backend-sand.vercel.app/moreRestaurants`, {
         params: {
           lat: geo[0].lat,
           lng: geo[0].lng,

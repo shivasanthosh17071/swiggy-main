@@ -16,8 +16,8 @@ function Header() {
       >
         <div className="container-fluid">
           {/* Logo */}
-          <NavLink className="navbar-brand" to="/">
-            <img src={swiggy} alt="Swiggy Logo" style={{ width: "140px" }} />
+          <NavLink className="m-0 p-0 navbar-brand " to="/">
+            <img src='/foodexpress.png' alt="Food express" style={{ width: "80px" }} />
           </NavLink>
 
           {/* Toggler for mobile */}
@@ -93,7 +93,7 @@ function Header() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div className="offcanvas-header">
-          <img src={swiggy} style={{ width: "40%" }} alt="swiggy" />
+          <img src="/foodexpress.png" style={{ width: "30%" }} alt="swiggy" />
           <button
             type="button"
             className="btn-close"

@@ -89,9 +89,7 @@ function Footer() {
                   </div>
                   <div className="footer-text">
                     <p>
-                      MERN STACK DEVELOPER <br />I am dedicated to continuously
-                      learning and improving my skills to stay current with
-                      emerging technologies and trends in the industry.
+                    This website is created to enhance my skills in web development by building real projects, improving my knowledge, and exploring new technologies.
                     </p>
                   </div>
                   <div className="footer-social-icon">
@@ -125,7 +123,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://shivasanthosh-portfolio.netlify.app/"
+                        href="https://santhoshdev.space"
                         target="/"
                       >
                         portfolio
@@ -148,7 +146,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://shivasanthosh-portfolio.netlify.app/"
+                        href="https://santhoshdev.space"
                         target="/"
                       >
                         Latest Projects
@@ -191,7 +189,7 @@ function Footer() {
                     ></i>{" "}
                     by{" "}
                     <a
-                      href="https://shivasanthosh-portfolio.netlify.app/"
+                      href="https://santhoshdev.space"
                       target="/"
                     >
                       Shiva Santhosh Reddy

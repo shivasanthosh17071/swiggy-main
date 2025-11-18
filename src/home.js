@@ -24,7 +24,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/topRestaurants`, {
+      .get(`https://swiggy-backend-sand.vercel.app/topRestaurants`, {
         params: { lat: geo[0].lat, lng: geo[0].lng },
       })
       .then((res) => {
@@ -43,7 +43,7 @@ function Home() {
   useEffect(() => {
     if (suggetions !== "") {
       axios
-        .get(`https://swiggy-backend-gwfo.onrender.com/${suggetions}/suggetions`)
+        .get(`https://swiggy-backend-sand.vercel.app/${suggetions}/suggetions`)
         .then((res) => {
           if (res.data.data) {
             setLocations(res?.data?.data);
@@ -82,8 +82,8 @@ function Home() {
             >
               <div className="offcanvas-header">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpHDFHQXYclFyO5rYKUOYQmPT8OrWucjftg&s"
-                  style={{ width: "50%" }}
+                  src="/foodexpress.png"
+                  style={{ width: "30%" }}
                   alt="logo"
                 />
                 <button

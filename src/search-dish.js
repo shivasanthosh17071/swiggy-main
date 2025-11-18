@@ -20,7 +20,7 @@ function SearchDish() {
     }
 
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/searchDish`, {
+      .get(`https://swiggy-backend-sand.vercel.app/searchDish`, {
         params: { lat: geo[0].lat, lng: geo[0].lng, SearchDish: searchDish },
       })
       .then((res) => {

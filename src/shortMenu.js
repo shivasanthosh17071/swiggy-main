@@ -15,7 +15,7 @@ function FullMenu() {
 
   useEffect(() => {
     axios
-      .get(`https://swiggy-backend-gwfo.onrender.com/menu`, {
+      .get(`https://swiggy-backend-sand.vercel.app/menu`, {
         params: { restId: params.restId },
       })
       .then((res) => {

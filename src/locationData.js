@@ -49,7 +49,7 @@ function LocationData({
     setTopRestaurants([]); // Clear previous restaurant data
     try {
       const response = await axios.get(
-        `https://swiggy-backend-gwfo.onrender.com/${item?.place_id}/placeId`
+        `https://swiggy-backend-sand.vercel.app/${item?.place_id}/placeId`
       );
       const location = response?.data?.data[0]?.geometry?.location;
 
